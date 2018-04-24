@@ -1,0 +1,15 @@
+@import "../../../stylesheets/variables";
+
+#sidebar .sidenav-outer .menu-body .nav li {
+  width: 100%;
+  padding: 12px 0px;
+  transition: all 800ms;
+
+  &:hover {
+    background-color: $brand-secondary;
+
+    &.logout {
+      background-color: $brand-danger;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="d-flex align-items-center bg-lightGray h-100 fixed-top" style="z-index: 9999" *ngIf="appLoader.loading">
+  <div class="spinner">
+    <div class="rect1 bg-darkLime"></div>
+    <div class="rect2 bg-darkBlue"></div>
+    <div class="rect3 bg-white"></div>
+    <div class="rect4 bg-darkRed"></div>
+    <div class="rect5 bg-darkLime"></div>
+    <p class="">{{appLoader.message}}</p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
